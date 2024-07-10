@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  background: #EDE574;
+  background: -webkit-linear-gradient(to right, #E1F5C4, #EDE574);
+  background: linear-gradient(to right, #E1F5C4, #EDE574);
+  height: 100%;
+}
